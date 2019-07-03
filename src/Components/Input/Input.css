@@ -1,0 +1,37 @@
+
+input[type=text]{
+    width: 70%;
+    color:#4D4D4D;
+    padding: 10px;
+    cursor:pointer;
+    outline: none;
+    border:none;
+}
+  
+input[type=text]:focus{
+    outline:none;
+}
+  
+input[type=text]::selection{
+    background: #b3d4fc
+}
+  
+input[type=submit] {
+    background-color:#2effc3;
+    border:1px solid #2effc3;
+    color: #011688;
+    padding: 0px 20px 3px;
+    line-height: 2;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    outline:none;
+    transition: all 0.2s ease-in;
+}
+  
+input[type=submit]:hover {
+    background-color: #ffd900;
+    border:1px solid #ffd900;
+}

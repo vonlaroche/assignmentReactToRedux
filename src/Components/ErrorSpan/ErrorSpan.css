@@ -1,0 +1,14 @@
+.errorSpan{
+    color: #ce0000;
+    margin-top: 2px;
+    padding: 1px;
+    font-size: 0.9em;
+}
+
+
+@media all and (max-width:768px){
+    .errorSpan{
+      font-size: 0.8em;
+    }
+}
+  

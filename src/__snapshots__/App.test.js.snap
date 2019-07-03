@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note List Item component it matches the snapshot 1`] = `
+Array [
+  <li>
+    <span />
+    <i
+      className="fas fa-trash-alt deleteIcon"
+    />
+  </li>,
+  "",
+]
+`;
+
+exports[`Note List Item component it matches the snapshot, error, contains emoji 1`] = `
+Array [
+  <li>
+    <span />
+    <i
+      className="fas fa-trash-alt deleteIcon"
+    />
+  </li>,
+  <span
+    className="errorSpan"
+  >
+    Error, contains emojis
+  </span>,
+]
+`;
+
+exports[`Note List Item component it matches the snapshot, error, empty note 1`] = `
+Array [
+  <li>
+    <span />
+    <i
+      className="fas fa-trash-alt deleteIcon"
+    />
+  </li>,
+  <span
+    className="errorSpan"
+  >
+    Error, note is empty
+  </span>,
+]
+`;
+
+exports[`Note List Item component it matches the snapshot, error, longer than a 100 1`] = `
+Array [
+  <li>
+    <span />
+    <i
+      className="fas fa-trash-alt deleteIcon"
+    />
+  </li>,
+  <span
+    className="errorSpan"
+  >
+    Error, number of characters is longer than a 100
+  </span>,
+]
+`;
+
+exports[`Note List Item component it matches the snapshot, proper note, no errors 1`] = `
+Array [
+  <li>
+    <span />
+    <i
+      className="fas fa-trash-alt deleteIcon"
+    />
+  </li>,
+  "",
+]
+`;
